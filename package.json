@@ -1,0 +1,21 @@
+{
+  "name": "asr-svelte-child-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t sveltify index.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abstract-state-router": "5.16.1",
+    "svelte-state-renderer": "1.2.0"
+  },
+  "devDependencies": {
+    "babelify": "7.3.0",
+    "browserify": "14.3.0",
+    "sveltify": "1.1.0"
+  }
+}
