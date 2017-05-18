@@ -11,7 +11,7 @@ stateRouter.addState({
 	defaultChild: 'child',
 	route: '/parent/:someId',
 	template: Parent,
-	resolve: (data, params) => Promise.resolve({ someId: params.someId })
+	resolve: (data, params) => Promise.resolve({ someId: parseInt(params.someId, 10) })
 })
 
 stateRouter.addState({
